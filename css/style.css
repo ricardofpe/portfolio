@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #f1f1f1";
     
 }
 
@@ -61,5 +62,36 @@ header{
   
     
   
+}
+
+main {
+    height: 100vh; /* Ajusta a altura da seção */
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+
+
+.titulo1{
+
+
+    font-size: 55px;
+
+
+
+}
+
+
+
+.texto1{
+
+
+    font-size: 20px;
+
+
+
+
 }
     
