@@ -1,0 +1,69 @@
+body{
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    
+}
+
+.navbar-brand{
+    margin-left: 250px;
+
+    
+}
+
+
+
+
+  .container-avatar {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: auto;
+  
+   
+  }
+
+
+.row{
+    width: 0;
+}
+
+
+
+header{
+    border-bottom: 1px solid gray;
+    
+}
+
+
+
+
+  
+   
+   
+
+  
+ 
+
+
+
+
+
+.btn{
+    width: 110px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+
+
+.btn-voltar{
+    position: absolute;
+    right: 250px;
+}
+
