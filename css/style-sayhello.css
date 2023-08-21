@@ -51,19 +51,41 @@ header{
 
 
 
-.btn{
+
+.btn-voltar{
+    position: absolute;
+    right: 250px;
     width: 110px;
     height: 40px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-   
 }
 
+.container-main{
 
-.btn-voltar{
-    position: absolute;
-    right: 250px;
+padding-top: 100px;
+max-width: 600px;
+margin: auto;
 }
 
+.mb-3{
+
+    font-size: 20px;
+    color: gray;
+}
+.titulo{
+    padding-bottom: 20px;
+}
+
+.btn-submit{
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
