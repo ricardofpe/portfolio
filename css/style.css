@@ -7,8 +7,11 @@ body{
     
 }
 
-.navbar-brand{
+#img-logo{  
     margin-left: 250px;
+    display: flex;
+    
+   
 
 
 }
@@ -159,3 +162,107 @@ padding-bottom: 100px;
    margin: 100px 20px 30px 20px;
 }
 
+
+  /* Estilos específicos para telas menores */
+  @media (max-width: 767px) {
+  .technologies{
+    max-width: 70px ;
+  }
+  .avatar{
+
+    max-width: 100px;
+
+  }
+
+  .notebook{
+    max-width: 110px;
+    max-height: 90px;
+
+  }
+
+  .codigobinario{
+   max-width: 100px;
+    max-height: 70px;
+
+  }
+
+  .btn {
+   
+    justify-content: flex-end; /* Alinha os botões ao final do contêiner */
+   
+   
+  }
+
+ 
+  .dropdown{
+    margin-right: 0px;
+    
+}
+
+  #img-logo{
+  max-width: 80px;
+  height: 100%;
+  
+  
+  }
+  
+  .titulo1{
+    font-size: 30px ;
+  }
+  .titulo2{
+    font-size: 30px ;
+  }
+.titulo3{
+    font-size: 30px;
+}
+  .texto1{
+    font-size: 18px;
+
+  }
+
+  .texto2{
+    font-size: 18px;
+
+  }
+
+  .btn-rede{
+    max-width: 80px;
+  }
+ 
+
+  }
+  
+
+  @media (max-width: 997px){
+
+    #img-logo{
+        margin-left: 0px ;}
+
+
+
+  }
+
+  
+  @media (max-width: 405px){
+
+    .btn{
+      max-width: 90px;
+      padding: 5px;
+
+    }
+
+  }
+  /* Estilos específicos para tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container {
+      width: 85%;
+    }
+  }
+  
+  /* Estilos específicos para desktops */
+  @media (min-width: 992px) {
+    .container {
+      width: 70%;
+    }
+  }
+  

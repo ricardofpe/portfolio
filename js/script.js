@@ -1,12 +1,3 @@
-function changeLanguage(lang) {
-  if (lang === 'pt') {
-    window.location.href = 'index_pt.html'; // Redireciona para a versão em português
-  } else if (lang === 'en') {
-    window.location.href = 'index.html'; // Redireciona para a versão em inglês
-  }
-}
-
-
 
 (function(){
   emailjs.init("HiP8frUaEIRG_3Tij");
@@ -47,3 +38,5 @@ form.addEventListener("submit", function(event) {
     }
   );
 });
+
+
