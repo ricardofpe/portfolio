@@ -43,7 +43,9 @@ header{
   
    
    
-
+#img-logo{
+    margin-left: 250px;
+}
   
  
 
@@ -61,6 +63,7 @@ header{
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    justify-content: flex-end;
 }
 
 .container-main{
@@ -89,3 +92,102 @@ margin: auto;
     border-bottom-right-radius: 20px;
     
 }
+
+.btn-back {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 250px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+.fas{
+    
+    padding: 8px;
+}
+
+#button-send{
+ 
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+   
+
+}
+
+#botao{
+    text-decoration: none;
+
+}
+
+#botao:hover{
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
+
+
+
+
+@media (max-width: 767px) {
+
+
+    #img-logo{
+        max-width: 80px;
+        height: 100%;
+        
+        
+
+
+        }
+
+    
+
+
+    .container-main{
+
+        padding-left: 20px ;
+        padding-right: 20px ;
+
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    #form-send{
+        width: 70%;
+        margin: auto;
+       
+    }
+   .btn-back{
+    margin-right: 0px;
+   }
+
+
+}
+
+
+
+@media (max-width: 997px){
+
+    #img-logo{
+        margin-left: 0px ;}
+
+
+
+  }

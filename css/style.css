@@ -208,6 +208,7 @@ padding-bottom: 100px;
   
   .titulo1{
     font-size: 30px ;
+  
   }
   .titulo2{
     font-size: 30px ;
@@ -215,10 +216,7 @@ padding-bottom: 100px;
 .titulo3{
     font-size: 30px;
 }
-  .texto1{
-    font-size: 18px;
-
-  }
+  
 
   .texto2{
     font-size: 18px;
@@ -226,9 +224,15 @@ padding-bottom: 100px;
   }
 
   .btn-rede{
-    max-width: 80px;
+    max-width: 70px;
   }
- 
+  .container-section{
+   padding: 30px 20px 30px 20px;
+  }
+
+ .container-main p, h1{
+  margin: 0px 20px 0px 20px;
+ }
 
   }
   
