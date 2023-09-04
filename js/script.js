@@ -4,8 +4,6 @@ const publicKey = 'HiP8frUaEIRG_3Tij';
   emailjs.init(publicKey);
 })();
 
-// Resto do seu código JavaScript
-// ...
 
 
 const btn = document.getElementById('button-send');
@@ -21,6 +19,12 @@ form.addEventListener("submit", function(event) {
   const nome = document.getElementById('nome').value;
   const email = document.getElementById('email').value;
   const mensagem = document.getElementById('mensagem').value;
+
+  if (nome.trim() === "" || email.trim() === "" || mensagem.trim() === "") {
+    alert("Please fill in all fields.");
+    btn.value = "Send Email";
+    return;
+  }
 
 
   const serviceID = 'service_rsmrj9n';
