@@ -15,7 +15,7 @@ const form = document.getElementById('form-send'); // Reference to the form elem
 form.addEventListener("submit", function(event) {
   event.preventDefault();
 
-  btn.value = 'Sending...';
+  btn.value = 'Enviando...';
   feedbackMessage.style.display = 'none';
 
   const nome = document.getElementById('nome').value;
@@ -34,12 +34,12 @@ form.addEventListener("submit", function(event) {
 
   emailjs.send(serviceID, templateId, templateParams).then(
     () => {
-      btn.value = "Send Email";
+      btn.value = "Enviar Email";
       feedbackMessage.style.display = 'block';
       form.reset(); // Reset form after successful submission
     },
     (err) => {
-      btn.value = "Send Email";
+      btn.value = "Enviar Email";
       alert(JSON.stringify(err));
     }
   );
