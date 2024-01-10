@@ -4,6 +4,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f1f1f1;
+
     
 }
 
@@ -151,15 +152,40 @@ padding-bottom: 100px;
 }
 
 
+
 .container-section{
     padding-top: 100px;
     padding-bottom: 100px;
+
+ border-bottom: 2px solid black;
+ margin: 0px 100px;
+
+}
+
+
+
+.container-section2{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+
+
+}
+
+.container-technologies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
 .technologies{
 
     max-width: 160px;
-   margin: 100px 20px 30px 20px;
+margin: 20px 20px;
 }
 
 
@@ -168,12 +194,108 @@ padding-bottom: 100px;
 }
 
 
+.container-projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0px 100px;
+  padding-bottom: 60px;
+
+
+  border-top: solid 2px black;
+}
+
+.h1-loja-gym{
+  margin-top: 50px;
+}
+
+.projeto-loja-gym{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+
+.projeto-loja-gym a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.img-loja-gym{
+  max-width: 350px;
+  border: 1px solid black;
+  margin-top: 10px;
+  
+}
+
+.container-used{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.container-used span{
+  margin-right: 5px;
+}
+
+.custom-button {
+
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #ffe134;
+  color: black;
+  border: solid 1px black;
+  cursor: not-allowed;
+
+
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.icon {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+
+.container-footer{
+  min-height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
 
 
   /* Estilos específicos para telas menores */
   @media (max-width: 767px) {
   .technologies{
-    max-width: 70px ;
+    max-width: 120px ;
   }
   .avatar{
 
@@ -253,7 +375,11 @@ padding-bottom: 100px;
 
   }
 
-  
+
+
+
+
+
   @media (max-width: 405px){
 
     .btn{
@@ -276,4 +402,3 @@ padding-bottom: 100px;
       width: 70%;
     }
   }
-  
