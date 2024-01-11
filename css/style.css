@@ -114,6 +114,18 @@ main {
     margin-bottom: 20px;
 }
 
+.button-cv{
+  background-color: rgb(110, 0, 110);
+  color: white;
+  border: 2px solid black;
+  font-weight: 600;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+
+
 .notebook{
     width: 310px;
     height: 240px;
@@ -262,7 +274,7 @@ margin: 20px 20px;
   background-color: #ffe134;
   color: black;
   border: solid 1px black;
-  cursor: not-allowed;
+  cursor:default !important;
 
 
   margin-top: 15px;
@@ -296,22 +308,30 @@ margin: 20px 20px;
   /* Estilos específicos para telas menores */
   @media (max-width: 767px) {
   .technologies{
-    max-width: 120px ;
+    max-width: 100px ;
   }
+
+  .img-loja-gym{
+    max-width: 320px;
+  }
+
+.button-cv{
+  padding: 5px 5px;
+}
   .avatar{
 
-    max-width: 100px;
+    max-width: 120px;
 
   }
 
   .notebook{
-    max-width: 110px;
-    max-height: 90px;
+    max-width: 120px;
+    max-height: 96px;
 
   }
 
   .codigobinario{
-   max-width: 100px;
+   max-width: 110px;
     max-height: 70px;
 
   }
